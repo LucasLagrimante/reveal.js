@@ -11,7 +11,9 @@
         <source src="./music/background.mp3">
     </audio> -->
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/serif.css">
+
+    <!-- Theme -->
+    <link rel="stylesheet" href="css/theme/blood.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -137,22 +139,22 @@
 
 
             dependencies: [{
-                src: 'plugin/markdown/marked.js'
-            },
-            {
-                src: 'plugin/markdown/markdown.js'
-            },
-            {
-                src: 'plugin/notes/notes.js',
-                async: true
-            },
-            {
-                src: 'plugin/highlight/highlight.js',
-                async: true,
-                callback: function () {
-                    hljs.initHighlightingOnLoad();
+                    src: 'plugin/markdown/marked.js'
+                },
+                {
+                    src: 'plugin/markdown/markdown.js'
+                },
+                {
+                    src: 'plugin/notes/notes.js',
+                    async: true
+                },
+                {
+                    src: 'plugin/highlight/highlight.js',
+                    async: true,
+                    callback: function() {
+                        hljs.initHighlightingOnLoad();
+                    }
                 }
-            }
             ]
         });
 
