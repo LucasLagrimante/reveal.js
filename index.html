@@ -7,9 +7,9 @@
 
     <title>The Barber</title>
     <link rel="icon" href="./img/logo.ico" type="image/x-icon" />
-    <audio autoplay loop>
-      <source src="./music/background.mp3">
-    </audio>
+    <!--<audio autoplay loop>
+        <source src="./music/background.mp3">
+    </audio> -->
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/serif.css">
 
@@ -48,23 +48,52 @@
 
             <section>
                 <section>
+                    <h2>Proposta</h2>
+                </section>
+                <section>
+                    <ul>
+                        <li>A ideia já existe, porém em outro contexto.</li>
+                        <li>Utiliza nossas preferências e nossas competências.</li>
+                        <li>Basea-se no mercado.</li>
+                        <li>Mistura conceitos.</li>
+                        <li>Inspirada em grandes empreendedores.</li>
+                        <li>Inova o suficiente.</li>
+                        <li>Resolve um problema.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>O que é o meu serviço e o que ele faz?</h3>
+                    <h5></h5>
+                    <h3>Em que ele é diferente de outros serviços?</h3>
+                    <h5></h5>
+                    <h3>Quem o comprará? Porque eles o comprarão?</h3>
+                    <h5></h5>
+                    <h3>Como o serviço será promovido e vendido/oferecido?</h3>
+                    <h5></h5>
+                </section>
+                <section>
+
+                </section>
+                <section>
+
+                </section>
+            </section>
+
+            <section>
+                <section>
                     <h2>Casos de Uso</h2>
                 </section>
                 <section>
                     <img style="border : none!important" data-src="./img/casosdeuso.png" alt="casosdeuso">
                 </section>
-            </section>
 
-            <section>
                 <section>
                     <h2>Modelagem do banco de dados</h2>
                 </section>
                 <section>
                     <img data-src="./img/bd.png" alt="modelagembanco">
                 </section>
-            </section>
 
-            <section>
                 <section>
                     <h3>Ponto de controle intermediário!</h3>
                 </section>
@@ -99,22 +128,22 @@
 
 
             dependencies: [{
-                    src: 'plugin/markdown/marked.js'
-                },
-                {
-                    src: 'plugin/markdown/markdown.js'
-                },
-                {
-                    src: 'plugin/notes/notes.js',
-                    async: true
-                },
-                {
-                    src: 'plugin/highlight/highlight.js',
-                    async: true,
-                    callback: function() {
-                        hljs.initHighlightingOnLoad();
-                    }
+                src: 'plugin/markdown/marked.js'
+            },
+            {
+                src: 'plugin/markdown/markdown.js'
+            },
+            {
+                src: 'plugin/notes/notes.js',
+                async: true
+            },
+            {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                callback: function () {
+                    hljs.initHighlightingOnLoad();
                 }
+            }
             ]
         });
 
