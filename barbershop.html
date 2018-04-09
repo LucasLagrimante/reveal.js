@@ -7,11 +7,13 @@
 
     <title>The Barber</title>
     <link rel="icon" href="./img/logo.ico" type="image/x-icon" />
-    <audio autoplay loop>
+    <audio loop>
       <source src="./music/background.mp3">
     </audio>
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/serif.css">
+
+    <!-- Theme used-->
+    <link rel="stylesheet" href="css/theme/beige.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -96,6 +98,7 @@
         // - https://github.com/hakimel/reveal.js#dependencies
         Reveal.initialize({
             transition: 'concave', // none/fade/slide/convex/concave/zoom
+            autoPlayMedia: true,
 
 
             dependencies: [{
